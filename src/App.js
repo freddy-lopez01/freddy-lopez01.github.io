@@ -11,7 +11,47 @@ function App() {
       <Router>
         <NavBar/>
         <Hero/>
-        <Cards/>
+	  	<Cards 
+        photo="me_camera.jpg" 
+        title="Welcome to my website" 
+        description="Some words to decribe me in a nutshell and my background" 
+	  	alignment="left"
+      />
+      <Cards 
+        photo="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fq3xipjo43pg70979tvzz.png" 
+        title="Another Card" 
+        description="This is another example card." 
+        //buttonLabel="Learn More" 
+	  	alignment="right"
+      />
+	  <Cards 
+        photo="https://i0.wp.com/9to5linux.com/wp-content/uploads/2020/04/RHEL-8.jpg?fit=1920%2C1076&ssl=1" 
+        title="Welcome to my website" 
+        description="TBD" 
+        //buttonLabel="Shop Now" 
+	  	alignment="left"
+      />
+      <Cards 
+        photo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIK8uoM7XCJ-Od4EQvRQhhwLkXvNy9ZTKQnA&s" 
+        title="Another Card" 
+        description="This is another example card." 
+        //buttonLabel="Learn More" 
+	  	alignment="right"
+      />
+	  <Cards 
+        photo="https://miro.medium.com/v2/resize:fit:1200/1*c8BaaE4zIVu9llxLouqPlg.png" 
+        title="Welcome to my website" 
+        description="TBD" 
+        //buttonLabel="Shop Now" 
+	  	alignment="left"
+      />
+      <Cards 
+        photo="https://www.insightintodiversity.com/wp-content/uploads/2021/12/University-of-Oregon-Top-40-Most-Affordable-Online-Masters-in-Psychology-Programs-2021-696x435.jpeg" 
+        title="Another Card" 
+        description="This is another example card." 
+        //buttonLabel="Learn More" 
+	  	alignment="right"
+      />
       </Router>
     </>
   );
