@@ -8,9 +8,9 @@ import { faInstagram, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-
 function NavBar() {
   const menuItems = ['About Me', 'Projects', 'Socials', 'Professional'];
   const menuIcons = [
-    { name: 'Instagram', icon: faInstagram},
-    { name: 'GitHub', icon: faGithub},
-    { name: 'LinkedIn', icon: faLinkedin}
+    { name: 'Instagram', icon: faInstagram, link:"https://www.instagram.com/flscapes/"},
+    { name: 'GitHub', icon: faGithub, link: "https://github.com/freddy-lopez01"},
+    { name: 'LinkedIn', icon: faLinkedin, link: "https://www.linkedin.com/in/freddy-lopez-558639260/"}
   ];
 
   return (
