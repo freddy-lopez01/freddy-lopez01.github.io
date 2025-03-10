@@ -4,19 +4,17 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './components/Navbar.jsx';
 import Hero from './components/Hero.jsx';
 import Cards from './components/Cards.jsx';
-
-function App() {
-  return (
-    <>
-      <Router>
+import Spacers from './components/Spacers.jsx'
+function App() { return ( <> <Router>
         <NavBar/>
         <Hero/>
 	  	<Cards 
         photo="me_camera.jpg" 
         title="Welcome to my website" 
-        description="Some words to decribe me in a nutshell and my background" 
+        description="I am a PNW native who loves the outdoors and working in the tech industry. I have worked in the industry proffessionally for almost 2 years managing the HPC cluster, Talapas, at the University of Oregon" 
 	  	alignment="left"
       />
+	  <Spacers title="My Experience"/>
       <Cards 
         photo="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fq3xipjo43pg70979tvzz.png" 
         title="Another Card" 
