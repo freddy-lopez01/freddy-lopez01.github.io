@@ -57,7 +57,7 @@ const Spacers = ({ title }) => {
 
   return (
     <div className="spacers-container">
-      <div className="box">My Experience</div> {/* Apply GSAP animation to this box */}
+      <div className="box"> {title} </div> {/* Apply GSAP animation to this box */}
 	  	<div className="subtitles">
       		<div className="subbox1"> Supercomuting</div> {/* Apply GSAP animation to this box */}
       		<div className="subbox2"> Engineering</div> {/* Apply GSAP animation to this box */}
@@ -68,5 +68,3 @@ const Spacers = ({ title }) => {
 };
 
 export default Spacers;
-
-
